@@ -3,6 +3,12 @@ Airtable CLI
 
 Unofficial command line interface for [Airtable](https://airtable.com).
 
+To install:
+
+```sh
+npm install --global airtable-cli
+```
+
 Add a new record
 ----------------
 
