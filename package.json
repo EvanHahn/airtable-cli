@@ -1,7 +1,20 @@
 {
-  "private": true,
-  "version": "0.0.0",
+  "name": "airtable-cli",
   "description": "Interact with the Airtable API at the command line",
+  "version": "0.0.0",
+  "author": "Evan Hahn <me@evanhahn.com> (https://evanhahn.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EvanHahn/airtable-cli"
+  },
+  "keywords": [
+    "airtable"
+  ],
+  "bugs": {
+    "url": "https://github.com/EvanHahn/airtable-cli/issues"
+  },
+  "homepage": "https://github.com/EvanHahn/airtable-cli",
+  "license": "Unlicense",
   "bin": "./bin/airtable",
   "scripts": {
     "pretest": "npm run lint",
