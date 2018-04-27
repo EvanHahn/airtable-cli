@@ -15,7 +15,7 @@ Add a new record
 Basic usage:
 
 ```sh
-airtable add --api-key key_YOUR_API_KEY --base appYOUR_BASE_ID --table TABLE_NAME 'Field name 1' 'Field value 1' 'Field name 2' 'Field value 2'
+airtable-cli add --api-key key_YOUR_API_KEY --base appYOUR_BASE_ID --table TABLE_NAME 'Field name 1' 'Field value 1' 'Field name 2' 'Field value 2'
 ```
 
 Add an alias:
@@ -23,7 +23,7 @@ Add an alias:
 ```sh
 # in your bashrc/zshrc:
 todo () {
-  airtable add --api-key key_YOUR_API_KEY --base appYOUR_BASE_ID --table Tasks 'Task title' "$1"
+  airtable-cli add --api-key key_YOUR_API_KEY --base appYOUR_BASE_ID --table Tasks 'Task title' "$1"
 }
 
 # at the command prompt
