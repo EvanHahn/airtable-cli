@@ -2,6 +2,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "Interact with the Airtable API at the command line",
+  "bin": "./bin/airtable",
   "scripts": {
     "pretest": "npm run lint",
     "lint": "standard --fix",
