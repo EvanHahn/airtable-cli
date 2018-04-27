@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const program = require('../src/program')
+
+async function main () {
+  const exitCode = await program(...process.argv.slice(2))
+  process.exit(exitCode)
+}
+
+main()
