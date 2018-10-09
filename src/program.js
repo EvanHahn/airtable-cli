@@ -21,7 +21,7 @@ module.exports = function program (...argv) {
       }
     }
   })
-  const {input, flags} = cli
+  const { input, flags } = cli
 
   if (!input.length) {
     cli.showHelp()
