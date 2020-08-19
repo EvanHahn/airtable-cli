@@ -1,7 +1,7 @@
 {
   "name": "airtable-cli",
   "description": "Interact with the Airtable API at the command line",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Evan Hahn <me@evanhahn.com> (https://evanhahn.com)",
   "repository": {
     "type": "git",
