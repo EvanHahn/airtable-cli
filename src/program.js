@@ -12,11 +12,11 @@ module.exports = function program (...argv) {
         alias: 'k'
       },
       base: {
-        type: 'base',
+        type: 'string',
         alias: 'b'
       },
       table: {
-        type: 'table',
+        type: 'string',
         alias: 't'
       }
     }
